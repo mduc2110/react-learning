@@ -15,7 +15,9 @@ function App() {
   const hideCartHandler = () => {
     setCartIsShown(false);
   };
-
+  const toggleCart = () => {
+    
+  }
   return (
     <CartProvider>
       {cartIsShown && <Cart onClose={hideCartHandler} />}
